@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const randomstring = require("randomstring");
 
-const mySecret = process.env['ODcwMzQ4NTY1ODEyMjQ0NTIx.YQLdRA.X4Bmfi_BAs5MC8aE1z3fsKL9cfQ']
+const mySecret = process.env['TOKEN']
 
 
 const prefix = '!';
@@ -60,5 +60,5 @@ client.on('ready', async () => {
     }, 4000)
 })
 
-client.login('ODcwMzQ4NTY1ODEyMjQ0NTIx.YQLdRA.sJZ1vXgoZONBnSJuh1LwYZo7MOc')
+client.login('IDE A TOKENED')
 
